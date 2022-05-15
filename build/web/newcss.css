@@ -1,0 +1,40 @@
+body {
+  background-image: url('bg01.jpg');
+}
+h1{
+
+text-align: center;
+border-style:hidden;
+border-color: black;
+font-family:algerian;
+font-size: 50px;
+color:red;
+}
+.button {
+  width: 150px;
+  height: 55px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: lightblue;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  
+  left: 80px;
+  bottom: -180px;
+  }
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+

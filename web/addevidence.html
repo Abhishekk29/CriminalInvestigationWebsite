@@ -1,0 +1,70 @@
+<html>
+    <title>Add Evidence Page</title>
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Custom Theme files -->
+<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" >
+<!-- //Custom Theme files -->
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //web font -->
+</head>
+<body>
+<!-- main -->
+	<div class="main-w3layouts wrapper">
+          
+		<h1>Add Evidence</h1>
+		<div class="main-agileinfo">
+			<div class="agileits-top">				
+                                    <form method="post" action="AddEvidenceServlet">
+					<input class="text" type="text" name="t1" placeholder="Case-ID:" required="">
+                                        <input type="text" name="type" list="type" placeholder="Evidence Type:" required="">
+    <datalist id="type">
+      <option value="Logical">
+      <option value="Physical">
+    </datalist>
+					<input class="text" type="text" name="t3" placeholder="Evidence:" required="">
+					<input class="text" type="text" name="t4" placeholder="Suspect:" required="">	
+                                        <input type="text" name="points" list="points" placeholder="Points:" required="">
+    <datalist id="points">
+      <option value="1">
+      <option value="2">
+      <option value="3">
+      <option value="4">
+      <option value="5">
+      <option value="6">
+      <option value="7">
+      <option value="8">
+      <option value="9">
+      <option value="10">                 
+    </datalist>
+                                        <input class="text" type="text" name="t5" placeholder="Note:" required="">
+					<div class="wthree-text">					
+						<div class="clear"> </div>
+					</div>
+                                        <input type="submit" value="submit">
+                                        <input type="reset">                                     
+				</form>
+                            <Center><button style="alignment-adjust: central;color: green;background-color: black;" onclick="window.location.href='officerhome.html'">Home</button></center>				
+			</div>
+		</div>		
+		<ul class="colorlib-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<!-- //main -->
+              <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+              <footer><center>&COPY; 2022 Criminal Investigation. All rights reserved.</center></footer><br>
+</body>
+
+</html>
+
+

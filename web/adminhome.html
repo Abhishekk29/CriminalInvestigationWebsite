@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Home</title>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="adminhome.css">
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+        #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 35px;
+            background: #334d5c;
+        }
+    </style>
+    </head>
+    <body id="page-top" >
+        <div class="w3-container">
+            <a href="index.html"><h2 class="w3-bar-item w3-button w3-black w3-mobile">Welcome Admin</h2></a>
+            <div class="w3-bar w3-black">
+                <a href="adminhome.html" class="w3-bar-item w3-button w3-red w3-mobile"><i class="fa fa-bed w3-margin-right"></i>Home</a>
+                <a href="LogoutServlet" class="w3-bar-item w3-button w3-right w3-green w3-mobile">Logout</a> 
+                 <a href="ViewCaseServlet" class="w3-bar-item w3-button w3-green">view case</a>
+                 <a href="ViewOfficerServlet" class="w3-bar-item w3-button w3-green">view officer</a>
+                 <a href="ViewSuspectServlet" class="w3-bar-item w3-button w3-green">view suspect</a>
+                 <a href="ViewPredictionServlet" class="w3-bar-item w3-button w3-green">view evidence</a>
+                 <a href="ViewResultServlet" class="w3-bar-item w3-button w3-green">view result</a>
+                 <a href="predict.jsp" class="w3-bar-item w3-button w3-green">Predict</a>                
+            </div>
+        </div>
+        <center>
+        <nav>
+  <ul>
+    <li onclick="window.location.href='addofficer.html'" >
+      Add Officer
+      <span></span><span></span><span></span><span></span>
+    </li><br>
+    <li onclick="window.location.href='addcase.html'" >
+      Add Case
+      <span></span><span></span><span></span><span></span>
+    </li><br>
+    <li onclick="window.location.href='addcaseofficer.html'" >
+      Add Officer-Case
+      <span></span><span></span><span></span><span></span>
+    </li><br>
+    <li onclick="window.location.href='addresult.jsp'">
+      Add result
+      <span></span><span></span><span></span><span></span>
+    </li>
+  </ul>
+        </nav></center> 
+    <center><div id="footer">&COPY; 2022 Criminal Investigation. All rights reserved.
+        </div></center>
+</body>
+
+</html>
