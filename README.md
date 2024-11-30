@@ -9,7 +9,6 @@ Admin Login
 https://github.com/user-attachments/assets/f6d20977-2d10-46c4-87a8-758be7eb4993
 
 Admin Home
-![image](https://github.com/user-attachments/assets/b6d1e5ec-4e5e-454f-8011-317d72171da0)
 ![image](https://github.com/user-attachments/assets/6834df61-ecf6-49f4-bedf-68e630742c95)
 
 Add Officer
