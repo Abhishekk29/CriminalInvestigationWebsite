@@ -1,5 +1,10 @@
-# Force all .java files to be treated as Java
+# Treat all .java files as Java
 *.java linguist-language=Java
 
-# Make sure Java files in this path aren't treated as vendor
+# Ensure Java files are not marked as vendored
 /src/java/p1/*.java linguist-vendored=false
+
+# Exclude specific file types from language statistics
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
