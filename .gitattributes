@@ -1,7 +1,5 @@
 *.java linguist-language=Java
-/src/** linguist-language=Java
 *.jsp linguist-language=Java
-*.java linguist-vendored=false
 *.css linguist-vendored
 *.scss linguist-vendored
 *.less linguist-vendored
