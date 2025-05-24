@@ -2,7 +2,7 @@
 *.jsp linguist-language=Java
 *.java linguist-vendored=false
 *.css linguist-vendored=false
-*.scss linguist-vendored=false
-*.less linguist-vendored=false
+*.scss linguist-vendored
+*.less linguist-vendored
 /build/** linguist-vendored
 /dist/** linguist-vendored
