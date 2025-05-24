@@ -1,6 +1,5 @@
-# Treat all .java files as Java
 *.java linguist-language=Java
 *.java linguist-vendored=false
-
-# Ensure Java files are not marked as vendored
-/src/java/p1/*.java linguist-vendored=false
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
