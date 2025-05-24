@@ -6,3 +6,4 @@
 *.less linguist-vendored
 /build/** linguist-vendored
 /dist/** linguist-vendored
+/web/** linguist-vendored
