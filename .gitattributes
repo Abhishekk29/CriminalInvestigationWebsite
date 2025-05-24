@@ -1,0 +1,5 @@
+# Force all .java files to be treated as Java
+*.java linguist-language=Java
+
+# Make sure Java files in this path aren't treated as vendor
+/src/java/p1/*.java linguist-vendored=false
